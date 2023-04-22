@@ -1,0 +1,26 @@
+import styled from 'styled-components/native'
+import theme from '../../theme'
+
+
+export const Container = styled.View`
+  width: 100%;
+  align-items: flex-start;
+  gap: 20px;
+`
+export const Time = styled.Text`
+  font-size: ${theme.FONT_SIZE.SM}px;
+  margin-bottom: 8px;
+
+`
+
+export const MealName = styled.Text`
+  font-size: ${theme.FONT_SIZE.SM}px;
+  margin-bottom: 8px;
+
+`
+
+export const MealStatusColor = styled.View`
+  width: 100%;
+  border-radius: 50%;
+  border: none;
+`
